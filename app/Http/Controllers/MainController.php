@@ -28,4 +28,13 @@ class MainController extends Controller
         return view('main.about');
     }
 
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function contact()
+    {
+        return view('main.contact');
+    }
+
 }

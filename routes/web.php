@@ -11,5 +11,18 @@
 |
 */
 
+
+/**
+ * Main Controller view index
+ */
 Route::get('/', 'MainController@index');
+
+/**
+ * Main Controller view about
+ */
 Route::get('/about', 'MainController@about');
+
+/**
+ * Main Controller view contact
+ */
+Route::get('/contact', 'MainController@contact');

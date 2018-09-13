@@ -114,7 +114,7 @@
                                 </li>
                                 <li ><a href="/record">Записаться </a>
                                 </li>
-                                <li ><a href="/contacts">Контакты</a>
+                                <li ><a href="/contact">Контакты</a>
                                 </li>
                             </ul>
                         </div>

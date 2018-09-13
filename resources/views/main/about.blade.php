@@ -201,5 +201,17 @@
     </section>
     <!--End Clients Section-->
 
-
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(/main_template/images/background/2018-bmw-m5-first-drive.jpg);">
+        <div class="auto-container">
+            <div class="inner-container clearfix">
+                <ul class="bread-crumb clearfix">
+                    <div class="btn-box">
+                        <a href="#" class="theme-btn btn-style-one">Записаться на станцию</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
 @endsection

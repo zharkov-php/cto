@@ -180,20 +180,20 @@
 
 
 
-    <!-- Call to Action -->
-    <section class="call-to-action style-two">
-        <div class="auto-container clearfix">
-            <div class="title-box">
-                <p>У нас вы можете записаться на желаемое время, а наш менеджер свяжется с вами и соорентирует с графиком </p>
-            </div>
-            <div class="btn-box">
-                <a href="#" class="theme-btn btn-style-one">Записаться на станцию</a>
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(/main_template/images/background/2018-bmw-m5-first-drive.jpg);">
+        <div class="auto-container">
+            <div class="inner-container clearfix">
+                <ul class="bread-crumb clearfix">
+                    <div class="btn-box">
+                        <a href="#" class="theme-btn btn-style-one">Записаться на станцию</a>
+                    </div>
+                </ul>
             </div>
         </div>
     </section>
-    <!-- End Call to Action -->
-
-
+    <!--End Page Title-->
 
 
 
