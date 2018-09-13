@@ -25,19 +25,19 @@
                 <!-- Image Column -->
                 <div class="image-column col-md-6 col-sm-12 col-xs-12">
                     <div class="image-box">
-                        <a href="about.html"><img src="images/resource/about-img.jpg" alt=""></a>
+                        <a href="/about"><img src="/main_template/images/resource/about-img.jpg" alt=""></a>
                     </div>
                     <div class="row clearfix">
                         <div class="column col-md-6 col-sm-6 col-xs-12">
-                            <h3><a href="about.html">Our Mission</a></h3>
+                            <h3><a href="/">Our Mission</a></h3>
                             <p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s difficult to get to the phone</p>
-                            <a href="about.html" class="read-more">Read More</a>
+                            <a href="/" class="read-more">Read More</a>
                         </div>
 
                         <div class="column col-md-6 col-sm-6 col-xs-12">
-                            <h3><a href="about.html">Our History</a></h3>
+                            <h3><a href="/">Our History</a></h3>
                             <p>If you are in the middle of something and you don’t want to miss that important call that could be the start of an exciting</p>
-                            <a href="about.html" class="read-more">Read More</a>
+                            <a href="/" class="read-more">Read More</a>
                         </div>
                     </div>
                 </div>

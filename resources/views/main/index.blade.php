@@ -21,10 +21,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-electrical"></span>
-                                <h4><a href="service-detail.html">Suspension Repair</a></h4>
+                                <h4><a href="/">Suspension Repair</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -39,10 +39,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-pistons"></span>
-                                <h4><a href="service-detail.html">Engine Overhaul</a></h4>
+                                <h4><a href="/">Engine Overhaul</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -57,10 +57,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-cogwheel"></span>
-                                <h4><a href="service-detail.html">Wheel Alignment</a></h4>
+                                <h4><a href="/">Wheel Alignment</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,10 +75,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-electrical"></span>
-                                <h4><a href="service-detail.html">Suspension Repair</a></h4>
+                                <h4><a href="/">Suspension Repair</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -93,10 +93,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-pistons"></span>
-                                <h4><a href="service-detail.html">Engine Overhaul</a></h4>
+                                <h4><a href="/">Engine Overhaul</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -111,10 +111,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-cogwheel"></span>
-                                <h4><a href="service-detail.html">Wheel Alignment</a></h4>
+                                <h4><a href="/">Wheel Alignment</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -129,10 +129,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-electrical"></span>
-                                <h4><a href="service-detail.html">Suspension Repair</a></h4>
+                                <h4><a href="/">Suspension Repair</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -147,10 +147,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-pistons"></span>
-                                <h4><a href="service-detail.html">Engine Overhaul</a></h4>
+                                <h4><a href="/">Engine Overhaul</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -165,10 +165,10 @@
                         <div class="caption-box">
                             <div class="title-box">
                                 <span class="icon flaticon-cogwheel"></span>
-                                <h4><a href="service-detail.html">Wheel Alignment</a></h4>
+                                <h4><a href="/">Wheel Alignment</a></h4>
                             </div>
                             <p>We should point out that maintaining your vehicle with an occasional visual inspectionfluid level.</p>
-                            <a href="service-detail.html" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
+                            <a href="/" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
             <div class="inner-container clearfix">
                 <ul class="bread-crumb clearfix">
                     <div class="btn-box">
-                        <a href="#" class="theme-btn btn-style-one">Записаться на станцию</a>
+                        <a href="/record" class="theme-btn btn-style-one">Записаться на станцию</a>
                     </div>
                 </ul>
             </div>

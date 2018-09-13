@@ -10,37 +10,34 @@
     <section class="contact-section">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <h2>Contact US</h2>
+                <h2>Напишите нам</h2>
                 <div class="separator"><span class="flaticon-settings-2"></span></div>
             </div>
 
             <div class="contact-form">
-                <form method="post" action="sendemail.php" id="contact-form">
+                <form method="post" action="/" id="contact-form">
                     <div class="row clearfix">
                         <div class="col-md-6 col-sm-12 col-xs-12 form-group pull-right">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Сообщение"></textarea>
                         </div>
 
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="row clearfix">
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="text" name="username" placeholder="Name" required="">
+                                    <input type="text" name="name" placeholder="Имя" required="">
                                 </div>
 
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
                                     <input type="email" name="email" placeholder="Email" required="">
                                 </div>
 
-                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="text" name="phone" placeholder="Phone No" required="">
+                                <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                    <input type="text" name="phone" placeholder="Телефон" required="">
                                 </div>
 
-                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="text" name="subject" placeholder="Subject" required="">
-                                </div>
 
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <button type="submit" name="submit-form">send Massage</button>
+                                    <button type="submit" name="submit-form">Отправить</button>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +49,7 @@
             <div class="contact-info">
                 <div class="row clearfix">
                     <div class="image-column col-md-8 col-sm-12 col-xs-12">
-                       ссс <figure><img src="/main_template/images/resource/car-image.png" alt=""></figure>
+                       ссс <figure><img src="/main_template/images/resource/IMG_20170529_160100.jpg" alt=""></figure>
                     </div>
 
                     <div class="info-column col-md-4 col-sm-12 col-xs-12">

@@ -11,7 +11,7 @@
 |
 */
 
-
+/*MAIN CONTROLLER start*/
 /**
  * Main Controller view index
  */
@@ -31,3 +31,13 @@ Route::get('/contact', 'MainController@contact');
  * Main Controller view record
  */
 Route::get('/record', 'MainController@record');
+
+/*MAIN CONTROLLER end*/
+
+
+
+/*SERVICE CONTROLLER start*/
+/**
+ * Service Controller view index
+ */
+Route::get('/service', 'ServiceController@index');
