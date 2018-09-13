@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'MainController@index');
+Route::get('/about', 'MainController@about');
