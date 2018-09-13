@@ -66,9 +66,11 @@
                                     </li>
                                     <li ><a href="/about">О Нас</a>
                                     </li>
+                                    <li ><a href="/service">Услуги</a>
+                                    </li>
                                     <li ><a href="/record">Записаться на станцию</a>
                                     </li>
-                                    <li ><a href="/contacts">Контакты</a>
+                                    <li ><a href="/contact">Контакты</a>
                                     </li>
                                 </ul>
                             </div>
@@ -111,6 +113,8 @@
                                 <li ><a href="/">Главная</a>
                                 </li>
                                 <li ><a href="/about">О Нас</a>
+                                </li>
+                                <li ><a href="/service">Услуги</a>
                                 </li>
                                 <li ><a href="/record">Записаться </a>
                                 </li>

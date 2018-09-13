@@ -37,4 +37,13 @@ class MainController extends Controller
         return view('main.contact');
     }
 
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function record()
+    {
+        return view('main.record');
+    }
+
 }

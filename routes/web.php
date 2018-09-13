@@ -26,3 +26,8 @@ Route::get('/about', 'MainController@about');
  * Main Controller view contact
  */
 Route::get('/contact', 'MainController@contact');
+
+/**
+ * Main Controller view record
+ */
+Route::get('/record', 'MainController@record');
