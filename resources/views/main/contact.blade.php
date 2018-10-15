@@ -49,26 +49,26 @@
             <div class="contact-info">
                 <div class="row clearfix">
                     <div class="image-column col-md-8 col-sm-12 col-xs-12">
-                       ссс <figure><img src="/main_template/images/resource/IMG_20170529_160100.jpg" alt=""></figure>
+                        <figure><img src="/main_template/images/main-slider/bmw_m5_merc_e63_01.jpg" alt=""></figure>
                     </div>
 
                     <div class="info-column col-md-4 col-sm-12 col-xs-12">
-                        <h3>Contact Info</h3>
+                        <h3>Контакты</h3>
                         <ul>
                             <li>
                                 <span class="icon flaticon-placeholder"></span>
-                                <p><strong>Address:</strong><br>13005 Greenville Avenue California.</p>
+                                <p><strong>Aдрес:</strong><br>Київ, вул Миколи Хвильового 15</p>
                             </li>
 
                             <li>
                                 <span class="icon flaticon-phone"></span>
-                                <p><strong>Phone:</strong>+1 800125 6524</p>
-                                <p><span>Email:</span><a href="#">mail@autowork.com</a></p>
+                                <p><strong>Телефон:</strong>096 930 94 74</p>
+                                <p><span>Почта:</span><a href="#">pictehno@ukr.net</a></p>
                             </li>
 
                             <li>
                                 <span class="icon flaticon-stopwatch"></span>
-                                <p><strong>Workshop Timeing :</strong><br>  10:00am to 6:00pm  Sunday Closed</p>
+                                <p><strong>Время работы: </strong><br> С 09:00 – 19:00 </p>
                             </li>
                         </ul>
                     </div>
