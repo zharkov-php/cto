@@ -7,8 +7,7 @@
     <div class="appointment-page">
         <div class="auto-container">
             <div class="sec-title">
-                <h2>К нам лучше не записываться </h2>
-                <p>Мы ничего не умеем!!!</p>
+                <h2>Записаться к нам  </h2>
             </div>
 
             <!-- Service form-->
@@ -43,98 +42,49 @@
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-1">
-                                    <label for="service-1">Диагностика </label>
+                                    <label for="service-1">Ремонт двигателя</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-2">
-                                    <label for="service-2">Ремонт ходовой</label>
+                                    <label for="service-2">Ремонт ходовой сис-мы</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-3">
-                                    <label for="service-3">Ремонт двигателя</label>
+                                    <label for="service-3">Ремонт топливной сис-мы</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-4">
-                                    <label for="service-4">Замена масла</label>
+                                    <label for="service-4">Диагност. двигателя</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-5">
-                                    <label for="service-5">Подмена деталей на старые</label>
+                                    <label for="service-5">Диагност. ходовой сис-мы</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-6">
-                                    <label for="service-6">Установка взрывчатки</label>
+                                    <label for="service-6">Тех-ское обслуживание</label>
                                 </div>
                             </div>
 
                             <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                 <div class="check-box">
                                     <input type="checkbox" name="shipping-option" id="service-7">
-                                    <label for="service-7">Отмывка денег</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-8">
-                                    <label for="service-8">Диагностика 7</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-9">
-                                    <label for="service-9">Диагностика 8</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-10">
-                                    <label for="service-10">Диагностика 9</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-11">
-                                    <label for="service-11">Диагностика 10</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-12">
-                                    <label for="service-12">Диагностика 11</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-13">
-                                    <label for="service-13">Диагностика 12</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-14">
-                                    <label for="service-14">Другое</label>
+                                    <label for="service-7">Шиномонтаж</label>
                                 </div>
                             </div>
                         </div>
