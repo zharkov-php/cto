@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Motor Expert - Auto Repair & Service HTML Template | Home Page Three</title>
+    <title>Станция технического обслуживания в Киеве | СТО в Киеве, ремонт бмв, мерседес в Киеве</title>
 
     <!-- Stylesheets -->
     <link href="/main_template/css/bootstrap.css" rel="stylesheet">
@@ -45,7 +45,7 @@
                 <div class="main-box clearfix">
                     <!--Logo Box-->
                     <div class="logo-box">
-                        <div class="logo"><a href="/"><img src="/main_template/images/logo.png" alt=""></a></div>
+                        <div class="logo"><a href="/"><img src="/main_template/images/logo_c_auto.png" alt=""></a></div>
                     </div>
                     <!--Nav Outer-->
                     <div class="nav-outer clearfix">
@@ -91,7 +91,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="/" class="img-responsive"><img src="/main_template/images/logo.png" alt="" title=""></a>
+                    <a href="/" class="img-responsive"><img src="/main_template/images/logo_c_auto.png" alt="" title=""></a>
                 </div>
 
                 <!--Right Col-->
@@ -174,7 +174,7 @@
                              data-x="['left','left','left','left']"
                              data-y="['middle','middle','middle','middle']"
                              data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>имени мистера Пупкина</h2>
+                            <h2>"C-auto"</h2>
                         </div>
 
 
@@ -219,7 +219,7 @@
                              data-x="['center','center','center','center']"
                              data-y="['middle','middle','middle','middle']"
                              data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h4>The Best Car Repair and</h4>
+                            <h4>СТО в Киеве, обслуживание BMW, Mercedes</h4>
                         </div>
 
                         <div class="tp-caption"
@@ -238,46 +238,12 @@
                              data-x="['center','center','center','center']"
                              data-y="['middle','middle','middle','middle']"
                              data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Maintenance Auto Service</h2>
+                            <h2>"C-auto"</h2>
                         </div>
 
-                        <div class="tp-caption"
-                             data-paddingbottom="[0,0,0,0]"
-                             data-paddingleft="[0,0,0,0]"
-                             data-paddingright="[0,0,0,0]"
-                             data-paddingtop="[0,0,0,0]"
-                             data-responsive_offset="on"
-                             data-type="text"
-                             data-height="none"
-                             data-textalign="center"
-                             data-whitespace="normal"
-                             data-width="['700','700','550','450']"
-                             data-hoffset="['0','0','0','0']"
-                             data-voffset="['5','5','5','15']"
-                             data-x="['center','center','center','center']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">We specialize in complete auto care at a low cost and in a <br> professional manner.</div>
-                        </div>
 
-                        <div class="tp-caption tp-resizeme"
-                             data-paddingbottom="[0,0,0,0]"
-                             data-paddingleft="[0,0,0,0]"
-                             data-paddingright="[0,0,0,0]"
-                             data-paddingtop="[0,0,0,0]"
-                             data-responsive_offset="on"
-                             data-type="text"
-                             data-height="none"
-                             data-width="auto"
-                             data-whitespace="nowrap"
-                             data-textalign="center"
-                             data-hoffset="['0','0','0','0']"
-                             data-voffset="['105','105','105','105']"
-                             data-x="['center','center','center','center']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <a href="/record" class="theme-btn btn-style-one">Booking Now</a>
-                        </div>
+
+
                     </li>
 
                     <!-- Slide 3 -->
@@ -300,7 +266,7 @@
                              data-x="['right','left','left','left']"
                              data-y="['middle','middle','middle','middle']"
                              data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h4>The Best Car Repair and</h4>
+                            <h4>Ремонт бмв, мерседес в Киеве</h4>
                         </div>
 
                         <div class="tp-caption"
@@ -318,44 +284,9 @@
                              data-x="['right','left','left','left']"
                              data-y="['middle','middle','middle','middle']"
                              data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Maintenance Service</h2>
+                            <h2>СТО в Киеве "C-auto"</h2>
                         </div>
 
-                        <div class="tp-caption"
-                             data-paddingbottom="[0,0,0,0]"
-                             data-paddingleft="[0,0,0,0]"
-                             data-paddingright="[0,0,0,0]"
-                             data-paddingtop="[0,0,0,0]"
-                             data-responsive_offset="on"
-                             data-type="text"
-                             data-height="none"
-                             data-whitespace="normal"
-                             data-width="['490','490','390','490']"
-                             data-hoffset="['0','15','15','15']"
-                             data-voffset="['5','5','5','5']"
-                             data-x="['right','left','left','left']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">We specialize in complete auto care at a low cost and in a <br> professional manner.</div>
-                        </div>
-
-                        <div class="tp-caption tp-resizeme"
-                             data-paddingbottom="[0,0,0,0]"
-                             data-paddingleft="[0,0,0,0]"
-                             data-paddingright="[0,0,0,0]"
-                             data-paddingtop="[0,0,0,0]"
-                             data-responsive_offset="on"
-                             data-type="text"
-                             data-height="none"
-                             data-width="['490','490','490','490']"
-                             data-whitespace="nowrap"
-                             data-hoffset="['0','15','15','15']"
-                             data-voffset="['105','105','105','105']"
-                             data-x="['right','left','left','left']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <a href="/record" class="theme-btn btn-style-one">Booking Now</a>
-                        </div>
                     </li>
 
                 </ul>

@@ -11,7 +11,7 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="copyright-text">
-                <p>Copyrights © 2018 All Rights Reserved. by <a href="#"> Expert Themes</a></p>
+                <p>Copyrights © 2018 All Rights Reserved. by <a href="#"> zharkov-php</a></p>
             </div>
         </div>
     </div>
