@@ -49,7 +49,7 @@
             <div class="contact-info">
                 <div class="row clearfix">
                     <div class="image-column col-md-8 col-sm-12 col-xs-12">
-                        <figure><img src="/main_template/images/main-slider/bmw_m5_merc_e63_01.jpg" alt=""></figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14382.158722589205!2d30.68007179537006!3d50.414661862452725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JrQuNGX0LIsINCy0YPQuyDQnNC40LrQvtC70Lgg0KXQstC40LvRjNC-0LLQvtCz0L4gMTU!5e0!3m2!1suk!2sua!4v1539680048670" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
 
                     <div class="info-column col-md-4 col-sm-12 col-xs-12">
@@ -72,30 +72,16 @@
                             </li>
                         </ul>
                     </div>
+
+
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact Section -->
 
-    <!-- Contact Map Section -->
-    <section class="contact-map-section">
-        <!--Map Outer-->
-        <div class="map-outer">
-            <!--Map Canvas-->
-            <div class="map-canvas"
-                 data-zoom="12"
-                 data-lat="50.503826"
-                 data-lng="30.455552"
-                 data-type="roadmap"
-                 data-hue="#ffc400"
-                 data-title="Envato"
-                 data-icon-path="images/icons/map-marker.png"
-                 data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-            </div>
-        </div>
-    </section>
-    <!-- End Map Section -->
+
+
 
 
 @endsection
