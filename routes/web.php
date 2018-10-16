@@ -41,3 +41,7 @@ Route::get('/record', 'MainController@record');
  * Service Controller view index
  */
 Route::get('/service', 'ServiceController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
