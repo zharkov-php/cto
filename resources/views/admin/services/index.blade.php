@@ -13,15 +13,14 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                     <div class="form-group">
-                        <a href="#" class="btn btn-success">Добавить</a>
+                        <a href="{{route('services.create')}}" class="btn btn-success">Добавить</a>
                     </div>
                     <table id="example1" class="table table-bordered table-striped">
                         <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Название</th>
-                            <th>Категория</th>
-                            <th>Теги</th>
+                            <th>Услуга</th>
+                            <th>Описание</th>
                             <th>Картинка</th>
                             <th>Действия</th>
                         </tr>
@@ -33,18 +32,16 @@
                                 <td>{{$service->name}}</td>
                                 <td>{{$service->title}}</td>
 
-                                <td>
-                                    <img src="{{$service->badge}}" alt="" width="100">
-                                </td>
-                                <td>
-                                    <img src="{{$service->image}}" alt="" width="100">
-                                </td>
-                                <td>
-                                    <a href="#" class="fa fa-pencil"></a>
 
-                                    <form class="form-horizontal" method="POST" accept-charset="UTF-8" enctype="multipart/form-data" action="#">
-                                        {{ csrf_field() }}
-                                        {{ method_field('DELETE') }}
+                                <td>
+                                    <img src="{{$service->getImage()}}" alt="" width="100">
+                                </td>
+                                <td>
+                                    <a href="{{route('services.edit',  $service->id)}}" class="fa fa-pencil"></a>
+
+                                    <form class="form-horizontal" method="POST" accept-charset="UTF-8" enctype="multipart/form-data" action="{{route('services.destroy', $service->id)}}">
+                                       @csrf
+                                        @method('DELETE')
                                         <button onclick="return confirm('are you sure?')" type="submit" class="delete">
                                             <i class="fa fa-remove"></i>
                                         </button>
@@ -52,12 +49,14 @@
                                 </td>
                             </tr>
                         @endforeach
+
                         </tfoot>
                     </table>
                 </div>
                 <!-- /.box-body -->
             </div>
-            <!-- /.box -->
+
+        <!-- /.box -->
         </section>
         <!-- /.content -->
     </div>
