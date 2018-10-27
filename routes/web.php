@@ -46,7 +46,10 @@ Route::get('/service', 'ServiceController@index');
  * Auth
  */
 Auth::routes();
-
+/**
+ * Admin Service controller
+ */
+Route::resource('/admin/services', 'Admin\ServicesController');
 /**
  * Admin Dashboard
  */
@@ -57,3 +60,5 @@ Route::get('/home', 'HomeController@index')->name('home');
  *Admin controller
  */
 Route::resource('admin', 'Admin\AdminController');
+
+
