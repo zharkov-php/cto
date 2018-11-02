@@ -51,8 +51,8 @@
         <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
     </div> -->
 
-
 </div>
+@yield('custom_scripts')
 
 <script src="/main_template/js/jquery.js"></script>
 <script src="/main_template/js/bootstrap.min.js"></script>

@@ -27,6 +27,8 @@ Route::get('/about', 'MainController@about');
  */
 Route::get('/contact', 'MainController@contact');
 
+
+
 /**
  * Main Controller view record
  */
@@ -46,6 +48,9 @@ Route::get('/service', 'ServiceController@index');
  * Auth
  */
 Auth::routes();
+
+Route::post('/send', 'MailController@send')->name('send');
+
 /**
  * Admin Service controller
  */

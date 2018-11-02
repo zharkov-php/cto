@@ -1,4 +1,4 @@
-@extends('.layouts/main')
+@extends('layouts.main')
 
 @section('content')
 
@@ -9,16 +9,20 @@
     <!-- Contact Section -->
     <section class="contact-section">
         <div class="auto-container">
-            <div class="sec-title text-center">
+            <div class="sec-title text-center" id="lol">
                 <h2>Напишите нам</h2>
                 <div class="separator"><span class="flaticon-settings-2"></span></div>
             </div>
 
             <div class="contact-form">
-                <form method="post" action="/" id="contact-form">
+                <form method="post" action="{{route('send')}}" id="contact-form">
+                    @csrf
+                    @method('POST')
+                                                @include('admin.errors')
+
                     <div class="row clearfix">
                         <div class="col-md-6 col-sm-12 col-xs-12 form-group pull-right">
-                            <textarea name="message" placeholder="Сообщение"></textarea>
+                            <textarea name="message" placeholder="Сообщение" required=""></textarea>
                         </div>
 
                         <div class="col-md-6 col-sm-12 col-xs-12">
@@ -83,5 +87,11 @@
 
 
 
+
+@endsection
+@section('custom_scripts')
+<script>
+
+</script>
 
 @endsection
