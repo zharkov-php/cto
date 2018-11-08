@@ -33,6 +33,7 @@ Route::get('/contact', 'MainController@contact');
  * Main Controller view record
  */
 Route::get('/record', 'MainController@record');
+Route::get('/record/create', 'MainController@createRecord')->name('record.create');
 
 /*MAIN CONTROLLER end*/
 
@@ -50,6 +51,7 @@ Route::get('/service', 'ServiceController@index');
 Auth::routes();
 
 Route::post('/send', 'MailController@send')->name('send');
+Route::post('/sendrecord', 'RecordController@send')->name('send.record');
 
 /**
  * Admin Service controller

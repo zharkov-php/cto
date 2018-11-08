@@ -37,6 +37,10 @@
                             <input type="file" id="exampleInputFile" name="image">
                         </div>
 
+                        <div class="form-group">
+                            <label for="badge">badge</label>
+                            <input  type="file" id="badge" name="badge">
+                        </div>
 
                         <div class="col-md-12">
                             <div class="form-group">
@@ -54,6 +58,7 @@
                     <!-- /.box-footer-->
                 </div>
                 <!-- /.box -->
+
             </form>
         </section>
         <!-- /.content -->

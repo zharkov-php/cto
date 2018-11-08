@@ -10,24 +10,28 @@
                 <h2>Записаться к нам  </h2>
             </div>
 
+
+
             <!-- Service form-->
             <div class="service-form">
-                <form>
+                <form action="{{route('send.record')}}" method="post">
+                    @csrf
+                    @method('post')
                     <div class="vehicle-detail">
                         <div class="row clearfix">
                             <div class="form-group col-md-4 col-sm-6 col-xs-12">
                                 <div class="title"><h3>Год выпуска</h3></div>
-                                <input type="number" name="v-mileage" placeholder="Год выпуска">
+                                <input type="date" name="date" placeholder="Год выпуска" required>
                             </div>
 
                             <div class="form-group col-md-4 col-sm-6 col-xs-12">
                                 <div class="title"><h3>Марка и Модель</h3></div>
-                                <input type="text" name="v-mileage" placeholder="Марка и Модель">
+                                <input type="text" name="model" placeholder="Марка и Модель" required>
                             </div>
 
                             <div class="form-group col-md-4 col-sm-6 col-xs-12">
                                 <div class="title"><h3>Пробег</h3></div>
-                                <input type="number" name="v-mileage" placeholder="Пробег">
+                                <input type="number" name="run" placeholder="Пробег" required>
                             </div>
 
 
@@ -39,84 +43,44 @@
                     <div class="services-needed">
                         <div class="title"><h3>Выберите вид услуг</h3></div>
                         <div class="row clearfix">
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-1">
-                                    <label for="service-1">Ремонт двигателя</label>
+                            @foreach($allServices as $service)
+                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="check-box">
+                                        <input type="checkbox" name="service" id="service-{{$service->id}}" value="{{$service->name}}">
+                                        <label for="service-{{$service->id}}">{{$service->name}}</label>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-2">
-                                    <label for="service-2">Ремонт ходовой сис-мы</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-3">
-                                    <label for="service-3">Ремонт топливной сис-мы</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-4">
-                                    <label for="service-4">Диагност. двигателя</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-5">
-                                    <label for="service-5">Диагност. ходовой сис-мы</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-6">
-                                    <label for="service-6">Тех-ское обслуживание</label>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="check-box">
-                                    <input type="checkbox" name="shipping-option" id="service-7">
-                                    <label for="service-7">Шиномонтаж</label>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
 
 
-            </div><!--End Appointment Form-->
 
             <!--Contact Form-->
 
-                    <div class="row clearfix">
                         <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                            <input type="text" name="name" placeholder="Ваше имя">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
                         </div>
 
                         <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                            <input type="email" name="email" placeholder="Ваша почта">
+                            <input type="email" name="email" placeholder="Ваша почта" required>
                         </div>
 
                         <div class="form-group col-md-4 col-sm-12 col-xs-12">
-                            <input type="text" name="telephone" placeholder="Номер телефона">
+                            <input type="text" name="phone" placeholder="Номер телефона" required>
                         </div>
 
                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                            <textarea placeholder="Дополнительная информация"></textarea>
+                            <textarea name="text" placeholder="Дополнительная информация"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-lg">Записаться</button>
-                    </div>
-                </form>
 
         </div>
-        </div>
+                </form>
+
+            </div>
+    </div><!--End Appointment Form-->
+
     </div>
     <!--End Appointment Page-->
 

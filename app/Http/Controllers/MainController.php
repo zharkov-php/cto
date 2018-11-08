@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 
+use App\Model\RecordService;
+use App\Model\Service;
+use Illuminate\Http\Request;
+
 /**
  * Class MainController
  * @package App\Http\Controllers
@@ -39,11 +43,29 @@ class MainController extends Controller
 
 
     /**
+     * @param Request $request
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @throws \Illuminate\Validation\ValidationException
      */
-    public function record()
+    public function record(Request $request)
     {
-        return view('main.record');
+        $allServices = Service::all();
+       // dd($allServices);
+
+
+
+
+        return view('main.record', compact('allServices'));
     }
 
+
+    public function createRecord(Request $request)
+    {
+        $this->validate($request, [
+            // 'type' => 'required'
+        ]);
+
+        RecordService::create($request->all());
+        return redirect('main.record');
+    }
 }
