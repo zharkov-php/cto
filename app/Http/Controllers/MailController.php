@@ -34,7 +34,7 @@ class MailController extends Controller
 
              $text->to('c.autokiev@gmail.com');
              $text->subject( $data['message']);
-             $text->from('c.autokiev@gmail.com', $data['name']);
+             $text->from($data['email'], $data['name']);
          });
 
                 session::flash('success', "Вы отправили письмо!! В ближайшее время с Вами свяжется администратор");

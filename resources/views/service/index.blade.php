@@ -14,7 +14,7 @@
                 <div class="service-block col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure><img src="/main_template/images/resource/service-6.jpg" alt=""></figure>
+                            <figure><img src="{{$service->getImage()}}" alt=""></figure>
                             <div class="title"><h4>{{$service->name}}</h4></div>
                         </div>
                         <div class="caption-box">
@@ -46,25 +46,25 @@
 
 
     <!--Clients Section-->
-    <section class="clients-section alternate">
+   {{-- <section class="clients-section alternate">
         <div class="auto-container">
             <div class="sponsors-outer">
                 <!--Sponsors Carousel-->
                 <ul class="sponsors-carousel owl-carousel owl-theme">
                     <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-6.jpg" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/clients/1.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-1.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-2.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-3.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-4.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-5.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-1.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-2.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-3.jpg" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/main_template/images/resource/service-6.jpg" alt=""></a></figure></li>
                 </ul>
             </div>
         </div>
-    </section>
+    </section>--}}
     <!--End Clients Section-->
 
 @endsection
