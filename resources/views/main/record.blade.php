@@ -46,7 +46,7 @@
                             @foreach($allServices as $service)
                                 <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                     <div class="check-box">
-                                        <input type="checkbox" name="service" id="service-{{$service->id}}" value="{{$service->name}}">
+                                        <input type="checkbox" name="service[]" id="service-{{$service->id}}" value="{{$service->name}}">
                                         <label for="service-{{$service->id}}">{{$service->name}}</label>
                                     </div>
                                 </div>

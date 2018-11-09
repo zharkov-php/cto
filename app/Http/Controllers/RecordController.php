@@ -16,7 +16,7 @@ class RecordController extends Controller
      */
     public function send(Request $request)
     {
-
+        //dd($request->all());
         $this->validate($request, [
 
         ]);

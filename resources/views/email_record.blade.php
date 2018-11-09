@@ -2,7 +2,7 @@
 Марка и Модель : <b>{{$model}}</b><hr>
 Пробег :  <b>{{$run}}</b><hr>
 
-Услуги : <b>{{$service}}||<hr>
+Услуги : <b>{{ implode(' || ', $service) }}<hr>
 
 
 Имя : <b>{{$name}}</b><hr>

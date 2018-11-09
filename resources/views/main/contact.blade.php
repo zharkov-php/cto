@@ -66,8 +66,10 @@
 
                             <li>
                                 <span class="icon flaticon-phone"></span>
-                                <p><strong>Телефон:</strong>096 930 94 74</p>
-                                <p><span>Почта:</span><a href="#">pictehno@ukr.net</a></p>
+                                <p><strong>Телефон:</strong></p>
+                                <p><strong></strong> 096 930 94 74</p>
+                                <p><strong></strong> 063 533 47 74</p>
+                                <p><strong>Почта:</strong><a href="#"> c.autokiev@gmail.com</a></p>
                             </li>
 
                             <li>
