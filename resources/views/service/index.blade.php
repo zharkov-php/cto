@@ -8,6 +8,7 @@
     <section class="services-page-section">
         <div class="auto-container">
             <div class="row clearfix">
+
             @foreach ($services as $service)
                 <!-- Service Block -->
                 <div class="service-block col-md-4 col-sm-6 col-xs-12">
@@ -27,6 +28,8 @@
                 </div>
 
                 @endforeach
+                <div id="zharkov-mob"></div>
+
             </div>
             <div id="zharkov"></div>
           {{--  <!-- Styled Pagination -->

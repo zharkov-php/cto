@@ -14,6 +14,10 @@
                 <div class="separator"><span class="flaticon-settings-2"></span></div>
             </div>
 
+
+            <div id="zharkov-mob"></div>
+
+
             <div class="contact-form">
                 <form method="post" action="{{route('send')}}" id="contact-form">
                     @csrf

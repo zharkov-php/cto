@@ -9,6 +9,7 @@
             <div class="sec-title">
                 <h2>Записаться к нам  </h2>
             </div>
+            <div id="zharkov-mob"></div>
 
 
 
@@ -91,7 +92,7 @@
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <h3>Вы  можете ознакомится с услугами</h3>
-                <a href="/service" class="call-btn">Услуги</a>
+                <a href="{{route('service')}}" class="call-btn">Услуги</a>
             </div>
         </div>
     </section>

@@ -54,7 +54,12 @@
 </div>
 @yield('custom_scripts')
 <script>
-    $("html, body").delay(2000).animate({scrollTop: $('#zharkov').offset().top }, 2000);
+    if (screen.width <= 768) {
+        $("html, body").delay(2000).animate({scrollTop: $('#zharkov-mob').offset().top}, 2000);
+    }else{
+        $("html, body").delay(2000).animate({scrollTop: $('#zharkov').offset().top}, 2000);
+
+    }
 </script>
 <script src="/main_template/js/jquery.js"></script>
 <script src="/main_template/js/bootstrap.min.js"></script>

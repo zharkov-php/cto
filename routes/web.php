@@ -3,7 +3,7 @@
 Route::get('/', 'MainController@index');
 Route::get('/about', 'MainController@about');
 Route::get('/contact', 'MainController@contact');
-Route::get('/service', 'ServiceController@index');
+Route::get('/service', 'ServiceController@index')->name('service');
 
 Route::get('/record', 'MainController@record')->name('record.index');
 
