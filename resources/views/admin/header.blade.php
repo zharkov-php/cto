@@ -41,7 +41,7 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="../../index2.html" class="logo">
+        <a href="{{route('admin.index')}}" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>A</b>LT</span>
             <!-- logo for regular state and mobile devices -->
@@ -74,9 +74,6 @@
                     </li>
 
 
-
-
-
                     <!-- Control Sidebar Toggle Button -->
                     <li>
                         <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
@@ -99,7 +96,7 @@
                 </div>
                 <div class="pull-left info">
                     <p>{{Auth::user()->name}}</p>
-                    <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    <a href="{{route('admin.index')}}"><i class="fa fa-circle text-success"></i> Online</a>
                 </div>
             </div>
 

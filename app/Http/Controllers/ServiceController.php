@@ -12,10 +12,7 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        $query = Service::all();
-        $services = $query;
-
-
+        $services = Service::select('name', 'title', 'image')->get();
         return view('service.index', compact('services'));
     }
 }

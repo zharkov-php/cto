@@ -8,7 +8,7 @@ use App\Model\Service;
 use Illuminate\Http\Request;
 
 /**
- * Class MainController
+ * Class MainAdminController
  * @package App\Http\Controllers
  */
 class MainController extends Controller
@@ -45,24 +45,24 @@ class MainController extends Controller
     /**
      * @param Request $request
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     * @throws \Illuminate\Validation\ValidationException
      */
-    public function record(Request $request)
+    public function record()
     {
         $allServices = Service::all();
-       // dd($allServices);
-
-
-
 
         return view('main.record', compact('allServices'));
     }
 
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     * @throws \Illuminate\Validation\ValidationException
+     */
     public function createRecord(Request $request)
     {
         $this->validate($request, [
-            // 'type' => 'required'
+        //todo: create validate
         ]);
 
         RecordService::create($request->all());

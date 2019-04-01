@@ -22,21 +22,21 @@
 
                     <div class="row clearfix">
                         <div class="col-md-6 col-sm-12 col-xs-12 form-group pull-right">
-                            <textarea name="message" placeholder="Сообщение" required=""></textarea>
+                            <textarea name="message" placeholder="Сообщение" ></textarea>
                         </div>
 
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="row clearfix">
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="text" name="name" placeholder="Имя" required="">
+                                    <input type="text" name="name" placeholder="Имя" >
                                 </div>
 
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="email" name="email" placeholder="Email" required="">
+                                    <input type="text" name="email" placeholder="Email" >
                                 </div>
 
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <input type="text" name="phone" placeholder="Телефон" required="">
+                                    <input type="text" name="phone" placeholder="Телефон" >
                                 </div>
 
 
@@ -79,7 +79,6 @@
                         </ul>
                     </div>
 
-
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
 
 
 
-
+    <div id="zharkov"></div>
 
 @endsection
 @section('custom_scripts')

@@ -2,29 +2,23 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Requests\Admin\ServicesRequest;
 use App\Model\Service;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 
-class ServicesController extends Controller
+
+class ServicesController extends MainAdminController
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
-        $query = Service::all();
-        $services = $query;
-
+        $services = Service::select('id','name', 'title', 'image')->get();
         return view('admin.services.index', compact('services'));
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function create()
     {
@@ -32,20 +26,14 @@ class ServicesController extends Controller
     }
 
     /**
-     * @param Request $request
+     * @param ServicesRequest $servicesRequest
      * @return \Illuminate\Http\RedirectResponse
-     * @throws \Illuminate\Validation\ValidationException
      */
-    public function store(Request $request)
+    public function store(ServicesRequest $servicesRequest)
     {
-        $this->validate($request, [
-            'title' => 'required',
-            'name'   =>  'required',
-            'image' =>  'nullable|image'
 
-        ]);
-        $service = Service::create($request->all());
-        $service->uploadImage($request->file('image'));
+        $service = Service::create($servicesRequest->all());
+        $service->uploadImage($servicesRequest->file('image'));
 
         return redirect()->route('services.index');
 
@@ -54,7 +42,7 @@ class ServicesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -63,10 +51,8 @@ class ServicesController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function edit($id)
     {
@@ -75,21 +61,16 @@ class ServicesController extends Controller
     }
 
     /**
-     * @param Request $request
+     * @param ServicesRequest $servicesRequest
      * @param $id
      * @return \Illuminate\Http\RedirectResponse
-     * @throws \Illuminate\Validation\ValidationException
      */
-    public function update(Request $request, $id)
+    public function update(ServicesRequest $servicesRequest, $id)
     {
-        $this->validate($request, [
-            'name'  =>  'required',
-            'image' =>  'nullable|image'
 
-        ]);
         $service = Service::find($id);
-        $service->update($request->all());
-        $service->uploadImage($request->file('image'));
+        $service->update($servicesRequest->all());
+        $service->uploadImage($servicesRequest->file('image'));
 
         return redirect()->route('services.index');
     }
@@ -97,12 +78,12 @@ class ServicesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
-       Service::find($id)->delete();
-       return redirect()->route('services.index');
+        Service::find($id)->delete();
+        return redirect()->route('services.index');
     }
 }

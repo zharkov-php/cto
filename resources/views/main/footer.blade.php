@@ -53,7 +53,9 @@
 
 </div>
 @yield('custom_scripts')
-
+<script>
+    $("html, body").delay(2000).animate({scrollTop: $('#zharkov').offset().top }, 2000);
+</script>
 <script src="/main_template/js/jquery.js"></script>
 <script src="/main_template/js/bootstrap.min.js"></script>
 <!--Revolution Slider-->

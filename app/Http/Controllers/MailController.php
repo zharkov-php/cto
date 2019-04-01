@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\MailRequest;
 use Illuminate\Http\Request;
 use Mail;
 use Session;
@@ -13,21 +14,13 @@ class MailController extends Controller
     /**
      * Send
      */
-    public function send(Request $request)
+    public function send(MailRequest $mailRequest)
     {
-
-        $this->validate($request, [
-            'name'  => 'required',
-            'email' => 'required',
-            'phone' => 'required',
-            'message' => 'required',
-         ]);
-
         $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'message' => $request->message,
+            'name' => $mailRequest->name,
+            'email' => $mailRequest->email,
+            'phone' => $mailRequest->phone,
+            'message' => $mailRequest->message,
         ];
 
          Mail::send('email', $data, function ($text) use ($data){

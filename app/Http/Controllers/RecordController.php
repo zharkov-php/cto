@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\RecordRequest;
 use App\Model\RecordService;
 use Illuminate\Http\Request;
 use Mail;
@@ -10,28 +11,25 @@ use Session;
 class RecordController extends Controller
 {
 
-
     /**
      * Send
      */
-    public function send(Request $request)
+    public function send(RecordRequest $recordRequest)
     {
-        $this->validate($request, [
 
-        ]);
-        RecordService::create($request->all());
+        RecordService::create($recordRequest->all());
 
             $data = [
-            'date' => $request->date,
-            'model' => $request->model,
-            'run' => $request->run,
-            'name' => $request->name,
-            'service' => $request->service,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'text' => $request->text,
+            'date' => $recordRequest->date,
+            'model' => $recordRequest->model,
+            'run' => $recordRequest->run,
+            'name' => $recordRequest->name,
+            'service' => $recordRequest->service,
+            'email' => $recordRequest->email,
+            'phone' => $recordRequest->phone,
+            'text' => $recordRequest->text,
         ];
-
+//dd($recordRequest);
         Mail::send('email_record', $data, function ($text) use ($data){
 
             $text->to('c.autokiev@gmail.com');

@@ -2,7 +2,7 @@
 
 @section('content')
 
-
+<button id="button"></button>
     <!--Appointment Page-->
     <div class="appointment-page">
         <div class="auto-container">
@@ -17,21 +17,23 @@
                 <form action="{{route('send.record')}}" method="post">
                     @csrf
                     @method('post')
+                    @include('admin.errors')
+
                     <div class="vehicle-detail">
                         <div class="row clearfix">
                             <div class="form-group col-md-4 col-sm-6 col-xs-12">
                                 <div class="title"><h3>Год выпуска</h3></div>
-                                <input type="date" name="date" placeholder="Год выпуска" required>
+                                <input type="date" name="date" placeholder="Год выпуска" >
                             </div>
 
                             <div class="form-group col-md-4 col-sm-6 col-xs-12">
                                 <div class="title"><h3>Марка и Модель</h3></div>
-                                <input type="text" name="model" placeholder="Марка и Модель" required>
+                                <input type="text" name="model" placeholder="Марка и Модель" >
                             </div>
 
                             <div class="form-group col-md-4 col-sm-6 col-xs-12">
                                 <div class="title"><h3>Пробег</h3></div>
-                                <input type="number" name="run" placeholder="Пробег" required>
+                                <input type="number" name="run" placeholder="Пробег" >
                             </div>
 
 
@@ -40,7 +42,7 @@
                         </div>
                     </div>
 
-                    <div class="services-needed">
+                    <div class="services-needed" >
                         <div class="title"><h3>Выберите вид услуг</h3></div>
                         <div class="row clearfix">
                             @foreach($allServices as $service)
@@ -58,15 +60,15 @@
             <!--Contact Form-->
 
                         <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                            <input type="text" name="name" placeholder="Ваше имя" required>
+                            <input type="text" name="name" placeholder="Ваше имя" >
                         </div>
 
                         <div class="form-group col-md-4 col-sm-6 col-xs-12">
-                            <input type="email" name="email" placeholder="Ваша почта" required>
+                            <input type="text" name="email" placeholder="Ваша почта" >
                         </div>
 
                         <div class="form-group col-md-4 col-sm-12 col-xs-12">
-                            <input type="text" name="phone" placeholder="Номер телефона" required>
+                            <input type="text" name="phone" placeholder="Номер телефона">
                         </div>
 
                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
@@ -83,7 +85,7 @@
 
     </div>
     <!--End Appointment Page-->
-
+<div id="zharkov"></div>
     <!-- Subscribe Section -->
     <section class="subscribe-section">
         <div class="auto-container">
